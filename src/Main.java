@@ -10,9 +10,9 @@ public class Main {
         double payment3 = service.calculate(1_000_000, 36, 9.99);
 
 
-        System.out.println(Math.round(payment1));
-        System.out.println(Math.round(payment2));
-        System.out.println(Math.round(payment3));
+        System.out.println("Ежемесячный платеж:" + Math.round(payment1));
+        System.out.println("Ежемесячный платеж:" + Math.round(payment2));
+        System.out.println("Ежемесячный платеж:" + Math.round(payment3));
     }
 
 }
